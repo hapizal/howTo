@@ -5,8 +5,10 @@ This howTo tested in Anolis 8 OS or Centos 8
 
 Step 1
 Create a directory for the repository: Example, /var/repo
+```
 cd ~
 mkdir /var/repo
+```
 Note: If you are sharing this with many users, you make want to do this as root and in the /var directory.
 
 Step 2
