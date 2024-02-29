@@ -1,7 +1,8 @@
 #HowTo 
 #Setup a Local YUM/DNF RPM Repository
+
 _Notes :
-This howTo tested in Anolis 8 OS or Centos 8
+This howTo tested in Anolis 8 OS or Centos 8_
 
 Step 1
 Create a directory for the repository: Example, /var/repo
