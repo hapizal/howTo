@@ -1,6 +1,6 @@
-HowTo 
-Setup a Local YUM/DNF RPM Repository
-Notes :
+#HowTo 
+#Setup a Local YUM/DNF RPM Repository
+_Notes :
 This howTo tested in Anolis 8 OS or Centos 8
 
 Step 1
