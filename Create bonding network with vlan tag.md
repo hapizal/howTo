@@ -1,5 +1,5 @@
+# Create Bonding Network Interfaces with VLAN Tags
 
-CREATE BONDING NETWORK INTERFACE WITH VLAN TAG
 
 _This is howto when we need to create or seperate trunk mode interface to several vlan interfaces_
 
