@@ -15,9 +15,9 @@ echo "8021q" >> /etc/modules
 
 
 
-_Step 2_\ 
-create main bond0 interface\ 
-create bond interface only without IP parameters
+_Step 2_\
+_create main bond0 interface_\ 
+_create bond interface only without IP parameters_
 ```
 [root@IAM network-scripts]# cat ifcfg-bond0
 DEVICE=bond0
@@ -94,7 +94,7 @@ net.ipv4.conf.all.rp_filter=2
 [root@IAM network-scripts]#
 ```
 
-_update sysctl
+_update sysctl_
 ```
 sysctl -p /etc/sysctl.d/90-override.conf
 ```
