@@ -1,11 +1,11 @@
 
 CREATE BONDING NETWORK INTERFACE WITH VLAN TAG
 
-This is howto when we need to create or seperate trunk mode interface to several vlan interfaces
+_This is howto when we need to create or seperate trunk mode interface to several vlan interfaces_
 
 
-Step 1
-_Enable the driver for this type of interface mode
+_Step 1_
+_Enable the driver for this type of interface mode_
 
 ```
 lsmod | grep 8021q
