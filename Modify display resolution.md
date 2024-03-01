@@ -1,4 +1,4 @@
-# Set or modify resolution by command
+# Set or modify display resolution by command
 This how to is to modify display resolusion on kvm terminal, because we found several case\
 cli display was too small or too big
 
