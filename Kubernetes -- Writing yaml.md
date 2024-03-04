@@ -51,3 +51,32 @@ spec:
 - image: example-image: Specifies the Docker image to use for this container.
 - ports: Defines the ports to open in the container.
 - containerPort: 8080: Indicates that the container will listen on port 80.
+
+# Kubernetes deployment YAML - Examples
+Let’s look at some Kubernetes Deployment YAML examples.
+
+Example 1 — Run NGINX Containers using a YAML File
+This will create a deployment running 3 NGINX pods.
+
+nginx-deployment.yaml
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx-container
+        image: nginx:latest
+        ports:
+        - containerPort: 80
+```
